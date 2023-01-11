@@ -16,8 +16,8 @@ export default createStore({
 
 
 // testimonials
-const array=['john','matthew','faeez','seth','joel']
-const [x, ...result] = array;
-console.log(result);
-let table = document.createElement('table');
-console.dir(table);
+let arr = ["A", "B", "C"];
+
+for(let i = 0; i < arr.length; i++){
+  console.log(arr[i]);
+}

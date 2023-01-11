@@ -39,7 +39,9 @@ export default{
 
 }
 
-
+nav:hover{
+	color: red;
+}
 
 nav {
   padding: 30px;
@@ -55,8 +57,8 @@ nav a.router-link-exact-active {
   color: #3BC4A9;
 }
 .logo{
-	width: 5rem;
-	height: 5rem;
+	width: 3;
+	height: 3rem;
 	float: left;
 	border-radius: 100%;
 	box-shadow: black 1px 3px 5px;
