@@ -24,5 +24,8 @@ export default{
 	width:100vw
 	
 }
+h3{
+	color:transparent
+}
 
 </style>
