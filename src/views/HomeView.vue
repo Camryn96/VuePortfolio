@@ -1,6 +1,7 @@
 <template>
 	<div class="Home">
 		
+		
 	</div>
 	<Home/>
 </template>
@@ -10,5 +11,6 @@ export default{
 	components:{
 		Home
 	}
-}
+};
+
 </script>

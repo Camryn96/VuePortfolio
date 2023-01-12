@@ -18,12 +18,15 @@ export default{
 <style>
 .Footer{
 	color:white;
-	background-color: transparent;
+	background-color: lightblue;
 	position: fixed;
 	bottom: 0;
-	width:100vw
+	width:100vw;
 	
-}
+	
+	
+	
+};
 h3{
 	color:transparent
 }

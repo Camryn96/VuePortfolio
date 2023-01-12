@@ -10,7 +10,7 @@
 	<p>• Started my own business as a delivery driver(2020-)</p>
 	<p>• Pharmacy Assistant @ Parow Valley Pharmacy.</p>
 	<p>• LifeChoices Coding Academy Junior Developer</p>
-		
+		<a href="https://docs.google.com/document/d/1M3cujK5ESi1rOuip4aGgPsMzyM2EGFSX/edit?usp=share_link&ouid=108568048619233394137&rtpof=true&sd=true" target="_blank"><button>Cirriculum Vitae</button></a>
 	</div>
 </template>
 <script>

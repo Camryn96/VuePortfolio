@@ -1,35 +1,39 @@
 <template>
 	<div class="Contact">
 		<div class="container">
-			<form action="https://formspree.io/f/xdojwaqg" method="POST" target="_blank">
+			<form name="myForm">
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.. &#128100">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..&#128100">
-
-    <label for="rating">Rating</label>
-    <select id="rating" name="rating">
-      <option value="one">1</option>
-      <option value="two">2</option>
-      <option value="three">3</option>
-      <option value="four">4</option>
-      <option value="five">5</option>
-      <option value="six">6</option>
-      <option value="seven">7</option>
-      <option value="eight">8</option>
-      <option value="nine">9</option>
-      <option value="ten">10</option>
-      
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Leave a friendly comment &#128512;" style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
+				<form action="https://formspree.io/f/xdojwaqg" method="POST" target="_blank">
+	
+		<label for="fname">First Name</label>
+		<input type="text" id="fname" name="firstname" placeholder="Your name.. &#128100">
+	
+		<label for="lname">Last Name</label>
+		<input type="text" id="lname" name="lastname" placeholder="Your last name..&#128100">
+	
+		<label for="rating">Rating</label>
+		<select id="rating" name="rating">
+		  <option value="one">1</option>
+		  <option value="two">2</option>
+		  <option value="three">3</option>
+		  <option value="four">4</option>
+		  <option value="five">5</option>
+		  <option value="six">6</option>
+		  <option value="seven">7</option>
+		  <option value="eight">8</option>
+		  <option value="nine">9</option>
+		  <option value="ten">10</option>
+		  
+		</select>
+	
+		<label for="subject">Subject</label>
+		<textarea id="subject" name="subject" placeholder="Leave a friendly comment &#128512;" style="height:200px"></textarea>
+	
+		<input type="submit" value="Submit">
+	
+	  </form>
+			</form>
 </div>
 
 		
@@ -39,6 +43,14 @@
 <script>
 export default{
 	name:'Contact'
+	
+};
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
 }
 </script>
 <style>

@@ -1,35 +1,14 @@
 <template>
 	<div class="About">
 			   <h1 class="display-1 container-fluid text-decoration-underline">A few things about me!</h1>
-            <p>Born 14 December 1996 , Saturday afternoon at 12:06pm.I am a passionate, hardworking individual who is never shy for a challenge. I believe in myself at all times because I know who, what and how I am. </p>
             
              <center>
-                 <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
-                   <div class="carousel-inner">
-                     <div class="carousel-item active container-fluid">
-                       <!-- <img src="https://i.postimg.cc/xCXJMq2C/1667595481829.jpg" class="d-block w-50" alt="slide"> -->
-                     </div>
-                     <div class="carousel-item">
-                       <!-- <img src="https://i.postimg.cc/y86N0WhH/1667595481934.jpg" class="d-block w-50" alt="slide"> -->
-                     </div>
-                     <div class="carousel-item">
-                       <!-- <img src="https://i.postimg.cc/mgPvxsB9/1667595481857.jpg" class="d-block w-50" alt="slide"> -->
-                     </div>
-                   </div>
-                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
-                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                     <span class="visually-hidden">Previous</span>
-                   </button>
-                   <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
-                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                     <span class="visually-hidden">Next</span>
-                   </button>
-                 </div>
+                 
              </center>
 			 <br>
 			 <br>
                <!-- Button trigger modal -->
-     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal1">
+     <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal1">
          What is Camryn's Strengths?
      </button>
 	 <br>
@@ -53,7 +32,7 @@
        </div>
      </div>
      <!-- Button trigger modal -->
-     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal2">
+     <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal2">
          What is Camryn's Weaknesses?
      </button>
 	 <br>
@@ -77,7 +56,7 @@
        </div>
      </div>
      <!-- Button trigger modal -->
-     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal3">
+     <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal3">
          Camryn in five years?
      </button>
 	 <br>
@@ -101,7 +80,7 @@
        </div>
      </div>
      <!-- Button trigger modal -->
-     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal4">
+     <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal4">
        What are Camryn's interests?
      </button>
 	 <br>
@@ -125,7 +104,7 @@
        </div>
      </div>
      <!-- Button trigger modal -->
-     <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal5">
+     <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal5">
        Is Camryn an Asset?
      </button>
 	 <br>
@@ -159,9 +138,9 @@ export default{
 </script>
 <style>
 .modal-body{
-	background-color: black;
+	background-color: lightblue;
 }
 .modal-header,.modal-footer{
-	background-color: gold ;
+	background-image: linear-gradient(-0225deg,#FF2200 10%,#00FF22 30%,#2200FF 65%) ;
 }
 </style>

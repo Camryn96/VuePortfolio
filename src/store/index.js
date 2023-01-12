@@ -15,9 +15,3 @@ export default createStore({
 })
 
 
-// testimonials
-let arr = ["A", "B", "C"];
-
-for(let i = 0; i < arr.length; i++){
-  console.log(arr[i]);
-}

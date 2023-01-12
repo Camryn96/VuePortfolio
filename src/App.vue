@@ -1,13 +1,14 @@
 <template>
-	<nav>
+	<nav class="navbar">
 	  <a href="/"><img class="logo" src="https://i.postimg.cc/6QS6sKHJ/download.png" alt="logo"></a>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About Me</router-link> |
-    <router-link to="/Resume">Resume</router-link> |
-    <router-link to="/Projects">Projects</router-link> |
-    <router-link to="/Testimonials">Testimonials</router-link> |
-    <router-link to="/Contact">Contact Me</router-link>  
+	  <img class="icon" src="https://img.icons8.com/ios-filled/50/null/home-page.png"/><router-link to="/">Home</router-link> |
+	  <img class="icon" src="https://img.icons8.com/ios-filled/50/null/guest-male--v1.png"/><router-link to="/about">About Me</router-link> |
+	  <img class="icon" src="https://img.icons8.com/ios-filled/50/null/parse-resume.png"/> <router-link to="/Resume">Resume</router-link> |
+	  <img class="icon" src="https://img.icons8.com/external-sbts2018-solid-sbts2018/50/null/external-projects-basic-ui-elements-2.2-sbts2018-solid-sbts2018.png"/><router-link to="/Projects">Projects</router-link> |
+	  <img class="icon" src="https://img.icons8.com/ios-filled/50/null/voice-recognition-scan.png"/><router-link to="/Testimonials">Testimonials</router-link> |
+	  <img class="icon" src="https://img.icons8.com/external-itim2101-fill-itim2101/50/null/external-mail-human-resource-itim2101-fill-itim2101.png"/><router-link to="/Contact">Contact Me</router-link>  
   </nav>
+
   <router-view/>
   <Footer/>
 </template>
@@ -19,6 +20,7 @@ export default{
 		
 	}
 };
+
 </script>
 
 <style>
@@ -27,41 +29,50 @@ export default{
 #app {
 	font-family: 'Bakbak One', cursive;
   text-align: center;
-  color:white ;
+  color:whitesmoke ;
+  text-shadow: black 1px 1px 1px;
 	height: 50vw;
 	width: 100%;
-	/* background-image: linear-gradient(-0225deg,#FF2200 10%,#00FF22 30%,#2200FF 65%); */
-	background-image: url(https://i.postimg.cc/XYNmbH1V/jason-leung-479251-unsplash.jpg);
+	background-image: linear-gradient(-0225deg,#FF2200 10%,#00FF22 30%,#2200FF 65%);
+	background-image:url(https://i.postimg.cc/XYNmbH1V/jason-leung-479251-unsplash.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:100%;
+	min-height: 120vh;
 	background-size: 100vw;
+	
+	
 	
 
 }
 
-nav:hover{
-	color: red;
+.navbar:hover{
+	color: gold;
 }
 
-nav {
-  padding: 30px;
- 
+.navbar {
+  padding: 1px;
+  background-color: lightblue;
+  position: relative;
+  width: 100%;
+  box-shadow:  black 1px 1px 10px;
+  
 }
 
-nav a {
+.navbar a {
   font-weight: bold;
   color: white;
 }
 
-nav a.router-link-exact-active {
-  color: #3BC4A9;
+.navbar a.router-link-exact-active {
+  color: gold;
 }
 .logo{
 	width: 3;
 	height: 3rem;
 	float: left;
 	border-radius: 100%;
-	box-shadow: black 1px 3px 5px;
+	box-shadow: black 1px 2px 3px;
 };
+
 
 </style>
