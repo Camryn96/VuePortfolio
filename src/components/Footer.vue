@@ -3,6 +3,10 @@
 		<footer>
 			<h3>
 				Copyright Camryn Herandien 2023 &copy;
+			<a href="https://slack.com/" target="_blank"><img src="https://img.icons8.com/color/48/null/slack-new.png"></a>
+				
+			<a href="https://www.facebook.com/" target="_blank"><img src="https://img.icons8.com/color/48/null/facebook-new.png"></a>
+				
 				
 			</h3>
 		
@@ -29,6 +33,10 @@ export default{
 };
 h3{
 	color:transparent
+}
+a{
+	float: right;
+	margin-right: 20px;
 }
 
 </style>

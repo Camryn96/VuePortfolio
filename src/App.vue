@@ -29,14 +29,16 @@ export default{
 #app {
 	font-family: 'Bakbak One', cursive;
   text-align: center;
-  color:whitesmoke ;
-  text-shadow: black 1px 1px 1px;
+  color:black ;
+  text-shadow: white 1px 1px 1px;
 	height: 50vw;
 	width: 100%;
-	background-image: linear-gradient(-0225deg,#FF2200 10%,#00FF22 30%,#2200FF 65%);
-	background-image:url(https://i.postimg.cc/XYNmbH1V/jason-leung-479251-unsplash.jpg);
-	background-repeat: no-repeat;
-	background-size:100%;
+	/* background-image: linear-gradient(-0225deg,#FF2200 10%,#00FF22 30%,#2200FF 65%); */
+	background-image:url(https://i.postimg.cc/hjpbG29F/445410.jpg);
+	/* background-repeat: no-repeat; */
+	background-size:cover;
+	
+	bottom: 1100px;
 	min-height: 120vh;
 	background-size: 100vw;
 	
@@ -60,7 +62,7 @@ export default{
 
 .navbar a {
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 .navbar a.router-link-exact-active {
@@ -73,6 +75,7 @@ export default{
 	border-radius: 100%;
 	box-shadow: black 1px 2px 3px;
 };
+
 
 
 </style>

@@ -129,6 +129,7 @@
        </div>
      </div>
              </div>
+			 <img src="https://i.postimg.cc/W190pwhk/capoo-blue-cat.gif" alt="">
 			
 </template>
 <script>

@@ -1,7 +1,7 @@
 <template>
 	<div class="Home">
 		<div class="avatar">
-  <img src="https://i.postimg.cc/T3GG1GhX/istockphoto-1371301907-612x612.jpg">
+  <img src="https://i.postimg.cc/MG8QkzV3/profile-1.jpg">
 </div>
 
 
@@ -79,10 +79,10 @@ body {
 }
 
 .words {
-  color: white;
+  color: black;
   font-size: 50px;
   line-height: 1.5;
-  text-shadow: black 10px 10px 10px;
+  text-shadow: aqua 10px 10px 10px;
   
 }
 
@@ -197,7 +197,15 @@ html {
 }
 
 .avatar:hover img {
-  content: url('https://i.postimg.cc/v80nPZpP/dog-230497594.jpg');
+  content: url('https://i.postimg.cc/xCXJMq2C/1667595481829.jpg');
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+width: 155px;
+height: 175px;
+
+
 }
 
 .avatar:hover::before,
@@ -208,6 +216,7 @@ html {
 .avatar:hover::after {
   animation-delay: .5s;
 }
+
 
 
 

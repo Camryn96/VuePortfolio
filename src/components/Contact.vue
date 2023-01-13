@@ -4,16 +4,16 @@
 			<form name="myForm">
 
 
-				<form action="https://formspree.io/f/xdojwaqg" method="POST" target="_blank">
+				<form action="https://formspree.io/f/xdojwaqg" onsubmit="return validateForm()" method="POST" target="_blank">
 	
 		<label for="fname">First Name</label>
-		<input type="text" id="fname" name="firstname" placeholder="Your name.. &#128100">
+		<input type="text" id="fname" name="firstname" required placeholder="Your name.. &#128100">
 	
 		<label for="lname">Last Name</label>
-		<input type="text" id="lname" name="lastname" placeholder="Your last name..&#128100">
+		<input type="text" id="lname" name="lastname" required placeholder="Your last name..&#128100">
 	
 		<label for="rating">Rating</label>
-		<select id="rating" name="rating">
+		<select id="rating" name="rating" required>
 		  <option value="one">1</option>
 		  <option value="two">2</option>
 		  <option value="three">3</option>
@@ -28,7 +28,7 @@
 		</select>
 	
 		<label for="subject">Subject</label>
-		<textarea id="subject" name="subject" placeholder="Leave a friendly comment &#128512;" style="height:200px"></textarea>
+		<textarea id="subject" name="subject" required placeholder="Leave a friendly comment &#128512;" style="height:200px"></textarea>
 	
 		<input type="submit" value="Submit">
 	
@@ -43,6 +43,7 @@
 <script>
 export default{
 	name:'Contact'
+	
 	
 };
 function validateForm() {

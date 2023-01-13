@@ -1,7 +1,7 @@
 <template>
 	<div class="Testimonials">
 		<div class="card" v-for="test in tests" :key="test">
-  <img :src="test.image" alt="Avatar" style="width:60px">
+  <img class="profilePic" :src="test.image" alt="Avatar" style="width:60px">
   <div class="container">
     <h4 v-text="test.name"></h4>
     <p v-text="test.relation"></p>
@@ -53,8 +53,9 @@ data() {
 				name: "Wiseman",
 				relation:"Co-Worker",
 				message:"Camryn is a down to earth individual, ambitious and focused. He enjoys working on his code with his colleagues",
-				image: "https://i.postimg.cc/cLG4pZxn/joel.jpg"
-			}
+				image: "https://i.postimg.cc/TYtWNH9W/wiseman.jpg"
+			},
+			
 
 
 		]
@@ -72,22 +73,28 @@ data() {
 </script>
 <style>
 .card{
-	width: 400px;
-	height: 400px;
+	display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  padding: 10px;
 }
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
+}
+.profilePic{
+	border-radius: 9999px;
+}
+.testimonials{
+	background-size: cover;
 }
 </style>
