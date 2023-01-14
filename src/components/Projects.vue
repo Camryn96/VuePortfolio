@@ -3,7 +3,7 @@
 		<h1>My Projects</h1>
 		<div class="grid-container">
 
-			<div class="card" v-for="project in projects" :key="project">
+			<div class="card-project" v-for="project in projects" :key="project">
 	  <img class="img" :src="project.image" alt="Avatar" style="width:60px">
 	  <div class="container">
 		<h4 v-text="project.name"></h4>
@@ -66,11 +66,18 @@ export default{
 }
 </script>
 <style>
-.card{
-	display: grid;
-  grid-template-columns: auto auto auto;
+.card-project{
+
   background-color: #2196F3;
   padding: 10px;
+  height: auto;
+  text-align: center;
+}
+.grid-container{
+	text-align: center;
+	display: grid;
+  grid-template-columns: auto auto auto;
+  padding:50px
   
 }
 .img{

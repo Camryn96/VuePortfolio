@@ -1,7 +1,7 @@
 <template>
 	<div class="Home">
 		<div class="avatar">
-  <img src="https://i.postimg.cc/MG8QkzV3/profile-1.jpg">
+  <img src="https://i.postimg.cc/xCXJMq2C/1667595481829.jpg">
 </div>
 
 
@@ -40,8 +40,6 @@
   
 </div>
 			</div>
-	
-
 
 	
 </template>
@@ -197,7 +195,8 @@ html {
 }
 
 .avatar:hover img {
-  content: url('https://i.postimg.cc/xCXJMq2C/1667595481829.jpg');
+  content: url('https://i.postimg.cc/MG8QkzV3/profile-1.jpg');
+  
   display: block;
   margin-left: auto;
   margin-right: auto;

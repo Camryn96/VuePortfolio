@@ -8,7 +8,7 @@
 			 <br>
 			 <br>
                <!-- Button trigger modal -->
-     <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal1">
+     <button type="button" class="btn-modal btn-info" data-bs-toggle="modal" data-bs-target="#modal1">
          What is Camryn's Strengths?
      </button>
 	 <br>
@@ -25,14 +25,14 @@
              Honestly speaking, I believe my strengths is my Perseverence to complete whatever task is laid before me. Using whatever methods I am allowed to use. Another strength of mine is my observation skills to analyze whatever situation is laid before me.
            </div>
            <div class="modal-footer">
-             <button type="button" class="btn btn-secondary bg-primary bg-opacity-50 text-black" data-bs-dismiss="modal">Awesome</button>
+             <button type="button" class="btn-modal btn-secondary bg-primary bg-opacity-50 text-black" data-bs-dismiss="modal">Awesome</button>
              
            </div>
          </div>
        </div>
      </div>
      <!-- Button trigger modal -->
-     <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal2">
+     <button type="button" class="btn-modal btn-info" data-bs-toggle="modal" data-bs-target="#modal2">
          What is Camryn's Weaknesses?
      </button>
 	 <br>
@@ -50,13 +50,13 @@
             Orginization is my biggest weakness. At times my workspace can become messy, from outside looking in it might look like I dont know what im doing but in that mess i have created a system that benefits me.
            </div>
            <div class="modal-footer">
-             <button type="button" class="btn btn-secondary bg-primary bg-opacity-50 text-black" data-bs-dismiss="modal">Awesome</button>
+             <button type="button" class="btn-modal btn-secondary bg-primary bg-opacity-50 text-black" data-bs-dismiss="modal">Awesome</button>
            </div>
          </div>
        </div>
      </div>
      <!-- Button trigger modal -->
-     <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal3">
+     <button type="button" class="btn-modal btn-info" data-bs-toggle="modal" data-bs-target="#modal3">
          Camryn in five years?
      </button>
 	 <br>
@@ -74,13 +74,13 @@
              In five years i see myself in stable working conditions, enviroment. All im looking for is stability. With that stability I am always willing to put in the required effort and time make sure my employer trusts me.
            </div>
            <div class="modal-footer">
-             <button type="button" class="btn btn-secondary bg-primary bg-opacity-50 text-black" data-bs-dismiss="modal">Awesome</button>
+             <button type="button" class="btn-modal btn-secondary bg-primary bg-opacity-50 text-black" data-bs-dismiss="modal">Awesome</button>
            </div>
          </div>
        </div>
      </div>
      <!-- Button trigger modal -->
-     <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal4">
+     <button type="button" class="btn-modal btn-info" data-bs-toggle="modal" data-bs-target="#modal4">
        What are Camryn's interests?
      </button>
 	 <br>
@@ -98,13 +98,13 @@
              I am football supporter and a football coach that coaches an under9 team. football has always been close to the heart. My other interests are Computers specifically coding and the assembly and disaessembly of Computers. these are the things that bring a little bit of happiness in life.
            </div>
            <div class="modal-footer">
-             <button type="button" class="btn btn-secondary bg-primary bg-opacity-50 text-black" data-bs-dismiss="modal">Awesome</button>
+             <button type="button" class="btn-modal btn-secondary bg-primary bg-opacity-50 text-black" data-bs-dismiss="modal">Awesome</button>
            </div>
          </div>
        </div>
      </div>
      <!-- Button trigger modal -->
-     <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal5">
+     <button type="button" class="btn-modal btn-info" data-bs-toggle="modal" data-bs-target="#modal5">
        Is Camryn an Asset?
      </button>
 	 <br>
@@ -122,7 +122,7 @@
             I believe that I am an asset due to my resilience, determination and observational skills I have taught myself in life.
            </div>
            <div class="modal-footer">
-             <button type="button" class="btn btn-secondary bg-primary bg-opacity-50 text-black" data-bs-dismiss="modal">Awesome</button>
+             <button type="button" class="btn-modal btn-secondary bg-primary bg-opacity-50 text-black" data-bs-dismiss="modal">Awesome</button>
              
            </div>
          </div>
@@ -144,7 +144,7 @@ export default{
 .modal-header,.modal-footer{
 	background-image: linear-gradient(-0225deg,#FF2200 10%,#00FF22 30%,#2200FF 65%) ;
 }
-.button{
-	margin-left: 100%;
+.btn-modal{
+	margin-left: 3rem;
 }
 </style>

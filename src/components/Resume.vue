@@ -33,7 +33,7 @@
 		<div class="skills js">Novice</div>
 	</div>
 	
-	<a href="https://docs.google.com/document/d/1M3cujK5ESi1rOuip4aGgPsMzyM2EGFSX/edit?usp=share_link&ouid=108568048619233394137&rtpof=true&sd=true" target="_blank"><button class="btn">View Cirriculum Vitae</button></a>
+	<a href="https://docs.google.com/document/d/1M3cujK5ESi1rOuip4aGgPsMzyM2EGFSX/edit?usp=share_link&ouid=108568048619233394137&rtpof=true&sd=true" target="_blank"><button class="btn-cv">View Cirriculum Vitae</button></a>
 	
 </template>
 
@@ -58,15 +58,8 @@ h1{
   padding-bottom: 10px;
   color: whitesmoke;
 }
-.btn{
-	margin-right: 100%;
-	color: whitesmoke(box-shadow(black 10px 10px 10px));
-	background-color: lightskyblue;
-	box-shadow: black 2px 2px 2px;
-	
-}
-.btn :hover{
-	background-color: blue;
+.btn-cv{
+	float: right;
 }
 
 .html {width: 90%; background-color: orangered;}

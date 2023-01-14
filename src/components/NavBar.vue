@@ -1,13 +1,21 @@
 <template>
 	<div class="NavBar">
-		
+		<router-link to="/"><img class="logoHome" src="https://i.postimg.cc/GtyRRb7H/swerik-logo.gif" alt=""></router-link>
 		<nav>
-	  <router-link to="/">Home</router-link>
+			
+		<h1 id="navText">Portfolio of Camryn Herandien</h1>
+			
+			
+
+
+			
+			
+			<router-link to="/contact">Contact Me</router-link>
+			<router-link to="/testimonials">Testimonials</router-link>
+			<router-link to="/projects">Projects</router-link>
+			<router-link to="/resume">Resume'</router-link>
 	  <router-link to="/about">About</router-link>
-	  <router-link to="/resume">Resume'</router-link>
-	  <router-link to="/projects">Projects</router-link>
-	  <router-link to="/testimonials">Testimonials</router-link>
-	  <router-link to="/contact">Contact Me</router-link>
+	 
 			
 
 
@@ -34,7 +42,7 @@ position: unset;
 
 /* Style the links inside the navigation bar */
 .NavBar a {
-  float: left;
+  float: right;
   color: whitesmoke;
   text-align: center;
   padding: 10px 10px;
@@ -55,8 +63,20 @@ position: unset;
   background-color: lightblue;
   color: white;
 }
-.logo{
+.logoHome{
 	border-radius: 100%;
+	float: inline-start;
+	width: 50px;
+	height: 50px;
+	margin-right: 100%;
+	
+}
+#navText{
+	float: left;
+	text-transform: capitalize;
+	text-decoration: solid;
+	text-shadow: black 1px 2px 1px;
+	color: whitesmoke;
 	
 }
 

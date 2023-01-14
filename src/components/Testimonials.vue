@@ -1,15 +1,20 @@
 <template>
-	
-	
 	<div class="Testimonials">
-		<div class="card" v-for="test in tests" :key="test">
-  <img class="profilePic" :src="test.image" alt="Avatar" style="width:60px">
-  <div class="container">
-    <h4 v-text="test.name"></h4>
-    <p v-text="test.relation"></p>
-    <p v-text="test.message"></p>
+		<h1>Testimonials:</h1>
+		
+			<div class="cardTest" v-for="test in tests" :key="test">
+				<img class="profilePic" :src="test.image" alt="Avatar" style="width:60px">
+				<div class="containerTest">
+					<h4 v-text="test.name"></h4>
+					<p v-text="test.relation"></p>
+					<p v-text="test.message"></p>
+
+
+				</div>
+	
+	
   </div>
-</div>
+
 			</div>
 			
 	
@@ -74,29 +79,34 @@ data() {
 
 </script>
 <style>
-.card{
+/* 
+} */
+.cardTest{
 	display: contents;
-  /* grid-template-columns: auto auto auto; */
-  background-color: lightgrey;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
  padding-top: 100px;
-
+width: auto;
+	text-align: center;
+	display: grid;
+  grid-template-columns: auto auto auto;
+  padding:50px
+  
  
 }
 
 /* On mouse-over, add a deeper shadow */
-.card:hover {
+.cardTest:hover {
 	background-color: lightgrey;
 }
 
 /* Add some padding inside the card container */
-.container {
+.containerTest {
   padding: 1px;
+  
 }
 .profilePic{
 	border-radius: 9999px;
-}
-.testimonials{
-	background-color: red;
 }
 
 </style>

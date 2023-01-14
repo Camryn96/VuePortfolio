@@ -37,10 +37,11 @@ export default{
   text-shadow: black 1px 1px 1px;
 	height: 50vw;
 	width: 100%;
-	/* background-image: linear-gradient(-0225deg,#FF2200 10%,#00FF22 30%,#2200FF 65%); */
-	background-image:url(https://i.postimg.cc/DZM399B8/4a96e602750b8ef669a77565becf3939.gif);
-	/* background-repeat: no-repeat; */
-	background-size:100%;
+	background-image: linear-gradient(-0225deg,#B0CE31 10%,#31B0CE 30%,#CE31B0 65%);
+	/* background-image:url(https://i.postimg.cc/DZM399B8/4a96e602750b8ef669a77565becf3939.gif); */
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-size: 100%;
 	
 	bottom: 1100px;
 	min-height: 120vh;

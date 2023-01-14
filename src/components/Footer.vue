@@ -25,7 +25,7 @@ footer{
 	
   background-color: lightgrey;
 	position:fixed;
-	bottom: 0;
+	bottom: 0rem;
 	width:100vw;
 	
 	
