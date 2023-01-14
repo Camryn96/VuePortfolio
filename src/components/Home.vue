@@ -79,7 +79,7 @@ body {
 }
 
 .words {
-  color: black;
+  color: whitesmoke;
   font-size: 50px;
   line-height: 1.5;
   text-shadow: aqua 10px 10px 10px;

@@ -1,25 +1,29 @@
 <template>
 	<nav class="navbar">
-	  <a href="/"><img class="logo" src="https://i.postimg.cc/6QS6sKHJ/download.png" alt="logo"></a>
+	  <!-- <a href="/"><img class="logo" src="https://i.postimg.cc/6QS6sKHJ/download.png" alt="logo"></a>
 	  <img class="icon" src="https://img.icons8.com/ios-filled/50/null/home-page.png"/><router-link to="/">Home</router-link> |
 	  <img class="icon" src="https://img.icons8.com/ios-filled/50/null/guest-male--v1.png"/><router-link to="/about">About Me</router-link> |
 	  <img class="icon" src="https://img.icons8.com/ios-filled/50/null/parse-resume.png"/> <router-link to="/Resume">Resume</router-link> |
 	  <img class="icon" src="https://img.icons8.com/external-sbts2018-solid-sbts2018/50/null/external-projects-basic-ui-elements-2.2-sbts2018-solid-sbts2018.png"/><router-link to="/Projects">Projects</router-link> |
 	  <img class="icon" src="https://img.icons8.com/ios-filled/50/null/voice-recognition-scan.png"/><router-link to="/Testimonials">Testimonials</router-link> |
-	  <img class="icon" src="https://img.icons8.com/external-itim2101-fill-itim2101/50/null/external-mail-human-resource-itim2101-fill-itim2101.png"/><router-link to="/Contact">Contact Me</router-link>  
+	  <img class="icon" src="https://img.icons8.com/external-itim2101-fill-itim2101/50/null/external-mail-human-resource-itim2101-fill-itim2101.png"/><router-link to="/Contact">Contact Me</router-link>   -->
+	  <NavBar/>
   </nav>
-
   <router-view/>
   <Footer/>
 </template>
 <script>
-import Footer  from '@/components/Footer.vue'
+import NavBar from '@/components/NavBar.vue'
+import Footer from '@/components/Footer.vue'
 export default{
 	components:{
+		NavBar,
 		Footer,
 		
 	}
+	
 };
+
 
 </script>
 
@@ -29,14 +33,14 @@ export default{
 #app {
 	font-family: 'Bakbak One', cursive;
   text-align: center;
-  color:black ;
-  text-shadow: white 1px 1px 1px;
+  color:lightblue ;
+  text-shadow: black 1px 1px 1px;
 	height: 50vw;
 	width: 100%;
 	/* background-image: linear-gradient(-0225deg,#FF2200 10%,#00FF22 30%,#2200FF 65%); */
-	background-image:url(https://i.postimg.cc/hjpbG29F/445410.jpg);
+	background-image:url(https://i.postimg.cc/DZM399B8/4a96e602750b8ef669a77565becf3939.gif);
 	/* background-repeat: no-repeat; */
-	background-size:cover;
+	background-size:100%;
 	
 	bottom: 1100px;
 	min-height: 120vh;
@@ -47,34 +51,7 @@ export default{
 
 }
 
-.navbar:hover{
-	color: gold;
-}
 
-.navbar {
-  padding: 1px;
-  background-color: lightblue;
-  position: relative;
-  width: 100%;
-  box-shadow:  black 1px 1px 10px;
-  
-}
-
-.navbar a {
-  font-weight: bold;
-  color: black;
-}
-
-.navbar a.router-link-exact-active {
-  color: gold;
-}
-.logo{
-	width: 3;
-	height: 3rem;
-	float: left;
-	border-radius: 100%;
-	box-shadow: black 1px 2px 3px;
-};
 
 
 

@@ -20,10 +20,11 @@ export default{
 }
 </script>
 <style>
-.Footer{
-	color:white;
-	background-color: lightblue;
-	position: fixed;
+footer{
+	color:black;
+	
+  background-color: lightgrey;
+	position:fixed;
 	bottom: 0;
 	width:100vw;
 	

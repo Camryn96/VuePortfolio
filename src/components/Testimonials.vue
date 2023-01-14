@@ -1,4 +1,6 @@
 <template>
+	
+	
 	<div class="Testimonials">
 		<div class="card" v-for="test in tests" :key="test">
   <img class="profilePic" :src="test.image" alt="Avatar" style="width:60px">
@@ -73,28 +75,28 @@ data() {
 </script>
 <style>
 .card{
-	display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: transparent;
-  padding: 10px;
-}
-.card {
-  /* Add shadows to create the "card" effect */
-  transition: 0.3s;
+	display: contents;
+  /* grid-template-columns: auto auto auto; */
+  background-color: lightgrey;
+ padding-top: 100px;
+
+ 
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
+	background-color: lightgrey;
 }
 
 /* Add some padding inside the card container */
 .container {
-  padding: 2px 16px;
+  padding: 1px;
 }
 .profilePic{
 	border-radius: 9999px;
 }
 .testimonials{
-	background-size: cover;
+	background-color: red;
 }
+
 </style>

@@ -139,9 +139,12 @@ export default{
 </script>
 <style>
 .modal-body{
-	background-color: lightblue;
+	background-color: white;
 }
 .modal-header,.modal-footer{
 	background-image: linear-gradient(-0225deg,#FF2200 10%,#00FF22 30%,#2200FF 65%) ;
+}
+.button{
+	margin-left: 100%;
 }
 </style>
